@@ -1,13 +1,12 @@
 const path = require("path");
 const CopyPlugin = require("copy-webpack-plugin");
 
-// Manifest V3
 module.exports = {
   entry: {
-    background: path.join(__dirname, "src/background.ts")
+    background: path.join(__dirname, "src/manifest/v3/ts/background.ts")
   },
   output: {
-    path: path.join(__dirname, "dist"),
+    path: path.join(__dirname, "dist/mf3"),
     filename: "[name].js"
   },
   module: {
@@ -25,7 +24,8 @@ module.exports = {
   plugins: [
     new CopyPlugin({
         patterns: [
-            { from: 'ressource' }
+            { from: 'ressource' },
+            { from: 'src/manifest/v3/ressource' },
         ]
     })
 ]
