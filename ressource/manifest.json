@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+
+    "name": "Manifest V3 Extension",
+    "version": "1.0.0",
+
+    "action": {
+        "default_icon": "icon/icon16.png",
+        "default_popup": "html/popup.html"
+    },
+
+    "permissions": [
+        "webRequest"
+    ],
+
+    "host_permissions": [
+        "http://*/",
+        "https://*/"
+    ],
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "icons": {
+        "16": "icon/icon16.png",
+        "48": "icon/icon48.png",
+        "128": "icon/icon128.png"
+    }
+}
