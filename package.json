@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A boilerplate project to quickly build a manifest v2 or v3 web extension using TypeScript and WebPack.",
   "scripts": {
+    "build": "webpack --config webpack.prod.mf2.js && webpack --config webpack.prod.mf3.js", 
     "build-mf2": "webpack --config webpack.prod.mf2.js",
     "build-mf3": "webpack --config webpack.prod.mf3.js",
+    "dev": "webpack --config webpack.dev.mf2.js && webpack --config webpack.dev.mf3.js",
     "dev-mf2": "webpack --config webpack.dev.mf2.js",
     "dev-mf3": "webpack --config webpack.dev.mf3.js",
     "watch-mf2": "webpack -w --config webpack.dev.mf2.js",

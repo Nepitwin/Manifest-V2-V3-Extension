@@ -6,11 +6,13 @@
 
 ## Commands
 
-| Command                 | Description  |
-| -------------           |:-------------:|
-| build-mf2 \| build-mf3  | Compile all files minified for manifest v2 or v3  |
-| dev-mf2 \| dev-mf3      | Compile all files not minified for manifest v2 or v3 |
-| watch-mf2 \| watch-mf3  | Run the dev task in watch mode for manifest v2 or v3 |
+| Command                 | Description                                           |
+| -------------           | -------------                                         |
+| build                   | Compile all files minified for Manifest V2 and V3     |
+| build-mf2 \| build-mf3  | Compile all files minified for Manifest V2 or V3      |
+| dev                     | Compile all files not minified for Manifest V2 and V3 |
+| dev-mf2 \| dev-mf3      | Compile all files not minified for Manifest V2 or V3  |
+| watch-mf2 \| watch-mf3  | Run the dev task in watch mode for Manifest V2 or V3  |
 
 ## Building
 
