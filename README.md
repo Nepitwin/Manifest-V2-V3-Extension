@@ -32,4 +32,6 @@
 
 ## Useful links
   * [Introduction about Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/)
-  * [Manifest V3 Migration Checklist](https://developer.chrome.com/docs/extensions/mv3/mv3-migration-checklist/)
+  * [Manifest V3 Migration Checklist](https://developer.chrome.com/docs/extensions/mv3/mv3-migration-checklist/)npm 
+  * [Manifest V3 Migration Firefox](https://extensionworkshop.com/documentation/develop/manifest-v3-migration-guide/)
+  * [Manifest V3 Edge](https://learn.microsoft.com/en-us/microsoft-edge/extensions-chromium/developer-guide/manifest-v3)

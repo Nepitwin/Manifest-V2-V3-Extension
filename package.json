@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A boilerplate project to quickly build a manifest v2 or v3 web extension using TypeScript and WebPack.",
   "scripts": {
-    "build": "webpack --config webpack.prod.mf2.js && webpack --config webpack.prod.mf3.js", 
+    "build": "webpack --config webpack.prod.mf2.js && webpack --config webpack.prod.mf3.js",
     "build-mf2": "webpack --config webpack.prod.mf2.js",
     "build-mf3": "webpack --config webpack.prod.mf3.js",
     "dev": "webpack --config webpack.dev.mf2.js && webpack --config webpack.dev.mf3.js",
@@ -14,12 +14,12 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "copy-webpack-plugin": "8.1.1",
-    "@types/chrome": "0.0.139",
-    "ts-loader": "9.1.2",
-    "typescript": "4.2.4",
-    "webpack": "5.37.0",
-    "webpack-cli": "4.7.0",
-    "webpack-merge": "5.7.3"
+    "copy-webpack-plugin": "11.0.0",
+    "@types/chrome": "0.0.227",
+    "ts-loader": "9.4.2",
+    "typescript": "5.0.2",
+    "webpack": "5.77.0",
+    "webpack-cli": "5.0.1",
+    "webpack-merge": "5.8.0"
   }
 }
