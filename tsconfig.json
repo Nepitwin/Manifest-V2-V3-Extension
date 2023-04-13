@@ -3,13 +3,11 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "jsx": "react",
-    "lib": ["es2015", "dom"],
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "dist",
     "rootDir": "src",
     "sourceMap": true,
-    "target": "es5"
+    "target": "es2020"
   }
 }
